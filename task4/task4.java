@@ -23,7 +23,7 @@ public class task4 {
             System.out.println("Пожалуйста, укажите имя файла в качестве аргумента командной строки.");
             return;
         }
-        
+
         String filename = args[0];
         List<Integer> nums = new ArrayList<>();
 
