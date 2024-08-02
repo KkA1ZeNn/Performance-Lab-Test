@@ -7,6 +7,10 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
+/* В ПАПКЕ out СОДЕРЖИТСЯ JAR ФАЙЛ КОТОРЫЙ ПОЗВОЛИТ ЗАПУСТИТЬ ПРОЕКТ СО ВСЕМИ
+ПОДКЛЮЧЕННЫМИ ЗАВИСИМОСТЯМИ ИЛИ НУЖНО ПОДКЛЮЧИТЬ БИБЛИОТЕКУ GSON ВРУЧНУЮ
+ */
+
 public class task3 {
     public static void main(String[] args) {
         if (args.length != 3) {
